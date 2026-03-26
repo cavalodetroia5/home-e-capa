@@ -1,0 +1,158 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        color: white;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        background: rgba(0,0,0,0.5);
+    }
+    
+    nav a {
+        margin: 10px;
+        color: #00eaff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    nav a:hover {
+        color: #ffd700;
+    }
+    
+    .hero {
+        text-align: center;
+        padding: 80px 20px;
+    }
+    
+    .btn {
+        background: #00eaff;
+        padding: 10px 20px;
+        color: black;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    
+    .cards {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    
+    .card {
+        background: rgba(255,255,255,0.1);
+        padding: 20px;
+        border-radius: 15px;
+        width: 25%;
+        transition: 0.3s;
+    }
+    
+    .card:hover {
+        transform: scale(1.05);
+    }
+    
+    .conteudo {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .timeline {
+        background: rgba(255,255,255,0.1);
+        padding: 15px;
+        border-radius: 10px;
+    }
+    
+    .placar {
+        font-size: 30px;
+        margin: 20px;
+    }
+    
+    button {
+        padding: 10px;
+        margin: 5px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    
+ 
+  .banner{
+    background:url("https://images.unsplash.com/photo-1588072432836-e1003277435e") center/cover no-repeat;
+    height:350px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:rgb(255, 230, 0);
+    text-align:center;
+  }
+  
+  /* BANNER */
+.banner{
+    background:url('https://images.unsplash.com/photo-1588072432836-e10032774350') center/cover no-repeat;
+    height:350px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:rgb(255, 166, 0);
+    text-align:center;
+    }
+    
+    .banner h1{
+    background:rgba(0,0,0,0.5);
+    padding:20px;
+    }
+    
+    /* PRODUTOS */
+    .produtos{
+    padding:40px;
+    text-align:center;
+    }
+    
+    .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    }
+    
+    .img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+}
+
+.video {
+    text-align: center;
+    padding: 40px;
+}
+
+iframe {
+    border-radius: 15px;
+}
+
+    .card{
+    border:1px solid #ff5e00;
+    padding:15px;
+    border-radius:8px;
+    }
+    
+    .card img{
+    width:100%;
+    }
+    
+    .card h3{
+    margin:10px 0;
+    }
+    
+    /* RODAPÉ */
+    footer{
+    background:#333;
+    color:rgb(255, 153, 0);
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+    }
+    
